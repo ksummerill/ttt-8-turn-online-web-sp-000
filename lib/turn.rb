@@ -45,7 +45,7 @@ def turn(array)
   valid = valid_move?(array, index)
   # check that index is valid
     if valid == false
-      turn
+      turn(array)
     else
       puts "bleh!"  
     end
