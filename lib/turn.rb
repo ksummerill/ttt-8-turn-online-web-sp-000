@@ -44,9 +44,11 @@ def turn(array)
   index = input_to_index(input)
   valid = valid_move?(array, index)
   # check that index is valid
-    # until index == true do
-    #   turn
-    # end
+    if valid == false
+      turn
+    else 
+      puts "bleh!"  
+    end
 end
 
 # if index is valid
