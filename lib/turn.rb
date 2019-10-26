@@ -44,11 +44,11 @@ def turn(array)
   index = input_to_index(input)
   valid_move?(array, index)
 
-  if index == true
+  if index == valid_move?
     move
   else
     puts "Please enter 1-9:"
-  end    
+  end
   # if index is valid
   #   make the move for input
   # else
