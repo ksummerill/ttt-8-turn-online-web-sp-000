@@ -47,7 +47,7 @@ def turn(array)
     if valid == false
       turn(array)
     else
-      puts "bleh!"
+      move(array, index, character = "X")
     end
 end
 
