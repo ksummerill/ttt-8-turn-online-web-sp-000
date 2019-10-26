@@ -46,7 +46,8 @@ def turn(array)
   valid_move?(array, index)
   if valid_move?(array, index) == false
     puts "Please enter 1-9:"
-  else  
+  else
+  end
 end
 
 
