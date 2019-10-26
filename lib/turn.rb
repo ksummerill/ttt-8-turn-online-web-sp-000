@@ -38,16 +38,23 @@ def valid_move?(array, index)
 end
 
 # turn method
-# ask for user input, gets user input
 def turn(array)
   puts "Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
   valid_move?(array, index)
-  # if valid_move?(array, index) == false
-  #   puts "Please enter 1-9:"
+
+  if index == true
+    move
+  else
+    puts "Please enter 1-9:"
+  end    
+  # if index is valid
+  #   make the move for input
   # else
+  #   ask for input again until you get a valid input
   # end
+
 end
 
 
