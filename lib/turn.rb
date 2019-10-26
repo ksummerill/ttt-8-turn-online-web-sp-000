@@ -46,7 +46,7 @@ def turn(array)
   # check that index is valid
     if valid == false
       turn
-    else 
+    else
       puts "bleh!"  
     end
 end
