@@ -42,19 +42,15 @@ def turn(array)
   puts "Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
-  valid_move?(array, index)
+  valid = valid_move?(array, index)
   # check that index is valid
     # until index == true do
     #   turn
     # end
 end
 
-
-
-
 # if index is valid
-#   make the move for index
-#   show the board
+#   make the move for input
 # else
 #   ask for input again until you get a valid input
 # end
