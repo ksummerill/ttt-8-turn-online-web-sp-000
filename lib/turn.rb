@@ -46,7 +46,7 @@ def turn(array)
   # check that index is valid
     # until index == true do
     #   turn
-    # end 
+    # end
 end
 
 
