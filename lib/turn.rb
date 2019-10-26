@@ -44,6 +44,9 @@ def turn(array)
   input = gets.strip
   index = input_to_index(input)
   valid_move?(array, index)
+  if valid_move?(array, index) == false
+    puts "Please enter 1-9:"
+  else  
 end
 
 
