@@ -51,6 +51,8 @@ def turn(array)
     end
 end
 
+turn(board)
+
 # if index is valid
 #   make the move for input
 # else
