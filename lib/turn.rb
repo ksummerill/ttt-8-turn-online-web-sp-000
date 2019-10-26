@@ -49,7 +49,7 @@ def turn(array)
     else
       move(array, index, character = "X")
     end
-    display_board(board)
+    # display_board(board)
 end
 
 
