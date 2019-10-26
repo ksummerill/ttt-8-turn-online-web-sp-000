@@ -50,7 +50,6 @@ def turn(array)
       move(array, index, character = "X")
       display_board(array)
     end
-    # display_board(board)
 end
 
 
